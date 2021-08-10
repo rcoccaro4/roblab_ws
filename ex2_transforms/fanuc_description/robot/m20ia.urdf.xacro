@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="m20ia" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+  
+  <xacro:include filename="$(find fanuc_description)/robot/m20ia.xacro" />
+  <xacro:include filename="$(find fanuc_description)/robot/m20ia.gazebo.xacro" />
+
+</robot>
